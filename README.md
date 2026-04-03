@@ -20,7 +20,7 @@ To run this project locally, follow these steps:
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Hossam281/mindluster-task.git
 cd mindluster-task
 ```
 
@@ -42,7 +42,7 @@ npm start
 
 ## 🌐 Live Preview & Production Build
 
-**Live Demo URL**: [Link will be pasted here upon deployment]
+**Live Demo URL**: https://kanban-todo-listtt.netlify.app/
 
 > [!CAUTION]
 > **Important Limitation**: This project is built using a local mock API (`json-server`). While a production build can be generated using `npm run build`, it will not be functional on a live server unless the `db.json` is replaced by a real, hosted backend or the candidates' own local server is running.
@@ -60,7 +60,7 @@ Implementing pagination/infinite scroll *per column* forces the client to mainta
 Having a single global search bar that updates a shared query state causes all 4 column queries to invalidate and refetch simultaneously whenever a user types. This pattern is less efficient than having local column-specific search states or a more granular filter strategy.
 
 ### 3. State Management Selection
-**Zustand** was used as requested, but for an application this size—where only a simple search string is stored globally—Zustand (or Redux) is technically overkill. A standard React `Context` or even local state lifting would have sufficed. Global state solutions like Zustand are far better suited for features like **Theming**, **Localization**, or **Authentication**.
+**Zustand** was used as requested, but for an application this size—where only a simple search string is stored globally—Zustand (or Redux) is technically overkill. A  local state lifting would have sufficed. Global state solutions like Zustand are far better suited for features like **Theming**, **Localization**, or **Authentication**.
 
 ### 4. Timeline vs. Design Expectations
 The provided eistmated time of **2 hours** is quite tight if design quality, responsiveness, drag-and-drop logic, and robust infinite scroll are all critical assessment parts. Achieving a premium look and feel alongside clean architecture without the use of AI assistant tools (as suggested in the doc) would be a significant challenge for any candidate within that window.

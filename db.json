@@ -1,0 +1,304 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Design homepage",
+      "description": "Include hero section and CTA buttons",
+      "column": "in_progress"
+    },
+    {
+      "id": "2",
+      "title": "Setup database",
+      "description": "Configure PostgreSQL and run migrations",
+      "column": "in_progress"
+    },
+    {
+      "id": "3",
+      "title": "Implement authentication",
+      "description": "JWT-based login and registration",
+      "column": "done"
+    },
+    {
+      "id": "4",
+      "title": "Create API endpoints",
+      "description": "CRUD operations for tasks and users",
+      "column": "done"
+    },
+    {
+      "id": "5",
+      "title": "Frontend setup",
+      "description": "Initialize Vite and install dependencies",
+      "column": "backlog"
+    },
+    {
+      "id": "6",
+      "title": "Sidebar component",
+      "description": "Build a responsive collapsible sidebar",
+      "column": "in_progress"
+    },
+    {
+      "id": "7",
+      "title": "Task card component",
+      "description": "Design the task card with actions",
+      "column": "review"
+    },
+    {
+      "id": "8",
+      "title": "Column layout",
+      "description": "Create the Kanban board column layout",
+      "column": "done"
+    },
+    {
+      "id": "9",
+      "title": "Drag and drop",
+      "description": "Implement drag-and-drop between columns",
+      "column": "backlog"
+    },
+    {
+      "id": "10",
+      "title": "State management",
+      "description": "Setup Zustand for client state",
+      "column": "in_progress"
+    },
+    {
+      "id": "11",
+      "title": "Unit testing",
+      "description": "Add tests for utility functions",
+      "column": "review"
+    },
+    {
+      "id": "12",
+      "title": "Integration testing",
+      "description": "Test the main task flow end-to-end",
+      "column": "done"
+    },
+    {
+      "id": "13",
+      "title": "CI/CD pipeline",
+      "description": "Setup GitHub Actions for auto deploy",
+      "column": "backlog"
+    },
+    {
+      "id": "14",
+      "title": "Deployment config",
+      "description": "Deploy to Vercel with env variables",
+      "column": "in_progress"
+    },
+    {
+      "id": "15",
+      "title": "Dark mode",
+      "description": "Implement theme switching with MUI",
+      "column": "in_progress"
+    },
+    {
+      "id": "16",
+      "title": "User profile page",
+      "description": "Allow profile picture and bio editing",
+      "column": "done"
+    },
+    {
+      "id": "17",
+      "title": "Task filtering",
+      "description": "Filter tasks by title or description",
+      "column": "in_progress"
+    },
+    {
+      "id": "18",
+      "title": "Sorting feature",
+      "description": "Sort tasks by date or priority",
+      "column": "in_progress"
+    },
+    {
+      "id": "19",
+      "title": "Real-time updates",
+      "description": "Use WebSockets for live task sync",
+      "column": "done"
+    },
+    {
+      "id": "20",
+      "title": "Password reset",
+      "description": "Implement forgot password email flow",
+      "column": "in_progress"
+    },
+    {
+      "id": "21",
+      "title": "OAuth integration",
+      "description": "Add Google and GitHub social login",
+      "column": "review"
+    },
+    {
+      "id": "22",
+      "title": "Feedback form",
+      "description": "Collect user feedback with ratings",
+      "column": "in_progress"
+    },
+    {
+      "id": "23",
+      "title": "Performance tuning",
+      "description": "Optimize re-renders and bundle size",
+      "column": "done"
+    },
+    {
+      "id": "24",
+      "title": "Accessibility audit",
+      "description": "Ensure WCAG 2.1 AA compliance",
+      "column": "backlog"
+    },
+    {
+      "id": "25",
+      "title": "Error handling",
+      "description": "Add error boundaries and retry logic",
+      "column": "review"
+    },
+    {
+      "id": "26",
+      "title": "Multi-language support",
+      "description": "Internationalize the app with i18n",
+      "column": "in_progress"
+    },
+    {
+      "id": "27",
+      "title": "Notification system",
+      "description": "Toast notifications for task updates",
+      "column": "backlog"
+    },
+    {
+      "id": "28",
+      "title": "File upload",
+      "description": "Attach files to tasks with drag-drop",
+      "column": "done"
+    },
+    {
+      "id": "29",
+      "title": "Search autocomplete",
+      "description": "Add debounced search suggestions",
+      "column": "review"
+    },
+    {
+      "id": "30",
+      "title": "Analytics dashboard",
+      "description": "Charts showing task completion rates",
+      "column": "in_progress"
+    },
+    {
+      "id": "31",
+      "title": "Role-based access",
+      "description": "Implement RBAC for admin and users",
+      "column": "backlog"
+    },
+    {
+      "id": "32",
+      "title": "Data export",
+      "description": "Export tasks as CSV or PDF",
+      "column": "backlog"
+    },
+    {
+      "id": "33",
+      "title": "Bulk operations",
+      "description": "Select and move multiple tasks at once",
+      "column": "backlog"
+    },
+    {
+      "id": "34",
+      "title": "Keyboard shortcuts",
+      "description": "Vim-style navigation for power users",
+      "column": "backlog"
+    },
+    {
+      "id": "35",
+      "title": "Calendar view",
+      "description": "Show tasks on a calendar timeline",
+      "column": "backlog"
+    },
+    {
+      "id": "36",
+      "title": "Mobile responsive",
+      "description": "Optimize layout for mobile devices",
+      "column": "backlog"
+    },
+    {
+      "id": "37",
+      "title": "Offline support",
+      "description": "Service worker with local-first sync",
+      "column": "backlog"
+    },
+    {
+      "id": "38",
+      "title": "Rate limiting",
+      "description": "Implement API rate limiting middleware",
+      "column": "in_progress"
+    },
+    {
+      "id": "39",
+      "title": "Email templates",
+      "description": "Design HTML email notification templates",
+      "column": "in_progress"
+    },
+    {
+      "id": "40",
+      "title": "API documentation",
+      "description": "Swagger/OpenAPI spec for all endpoints",
+      "column": "in_progress"
+    },
+    {
+      "id": "41",
+      "title": "Log aggregation",
+      "description": "Centralized logging with ELK stack",
+      "column": "review"
+    },
+    {
+      "id": "42",
+      "title": "Load testing",
+      "description": "Performance test with k6 scripts",
+      "column": "review"
+    },
+    {
+      "id": "43",
+      "title": "Security audit",
+      "description": "Penetration testing and vulnerability scan",
+      "column": "review"
+    },
+    {
+      "id": "44",
+      "title": "Feature flags",
+      "description": "Toggle features per environment",
+      "column": "review"
+    },
+    {
+      "id": "45",
+      "title": "Database indexing",
+      "description": "Optimize queries with proper indexes",
+      "column": "done"
+    },
+    {
+      "id": "46",
+      "title": "Cache layer",
+      "description": "Redis caching for frequent queries",
+      "column": "done"
+    },
+    {
+      "id": "47",
+      "title": "Health checks",
+      "description": "Readiness and liveness probe endpoints",
+      "column": "done"
+    },
+    {
+      "id": "48",
+      "title": "Docker setup",
+      "description": "Containerize app with multi-stage builds",
+      "column": "done"
+    },
+    {
+      "id": "49",
+      "title": "SSL certificates",
+      "description": "Configure Let's Encrypt auto-renewal",
+      "column": "done"
+    },
+    {
+      "id": "50",
+      "title": "Monitoring alerts",
+      "description": "PagerDuty integration for critical errors",
+      "column": "done"
+    }
+  ]
+}
